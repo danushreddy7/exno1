@@ -74,15 +74,18 @@ df_zscore
 ```
 <img width="1344" height="664" alt="image" src="https://github.com/user-attachments/assets/e75baae6-b06c-469d-867c-85e2db3190ca" />
 
+```
 ir = pd.read_csv('iris.csv')
 ir
 ```
-<img width="665" height="517" alt="image" src="https://github.com/user-attachments/assets/961691bb-50a3-4662-84ec-6b70055964e7" />
+
+<img width="665" height="517" alt="486119149-961691bb-50a3-4662-84ec-6b70055964e7" src="https://github.com/user-attachments/assets/6cdfb679-b98a-490d-b454-108e8ec762c2" />
 
 ```
 import seaborn as sns
 sns.boxplot(x='sepal_width',data=ir)
 ```
+
 <img width="716" height="575" alt="image" src="https://github.com/user-attachments/assets/310bebb4-99ff-483b-906a-97deff9f86ef" />
 
 ```
